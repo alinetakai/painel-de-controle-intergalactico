@@ -1,0 +1,60 @@
+ /*Aula 5*/
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+  }
+  #info, #gallery {
+    margin: 20px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 8px;
+  }
+  .planet {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  h1{
+    color:#00ff00;
+  }
+  img{
+    width: 49%;
+    border-radius: 5px;
+    margin-left: 2px;
+  }
+
+  /*Aula 6*/
+  #info p {
+    margin: 5px 0;
+  }
+  .planet p {
+    text-align: center;
+    font-weight: bold;
+  }
+  #gallery {
+    max-width: 600px;
+    margin: auto;
+  }
+  .planet {
+    border: 2px dashed #00ff00;
+  }
+
+  /*Aula 7*/
+  #info, #gallery {
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .planet {
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+  }
+    
